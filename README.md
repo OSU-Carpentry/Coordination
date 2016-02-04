@@ -10,6 +10,7 @@ Software Carpentry
 >---------------
 >*    Phillip Doehle
 >*    Peter Hoyt
+>*    Dana Brunson
 
 >[Version Control with Git](http://swcarpentry.github.io/git-novice)
 >------------------------
