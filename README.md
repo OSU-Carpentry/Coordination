@@ -9,6 +9,7 @@ Software Carpentry
 >[The Unix Shell](http://swcarpentry.github.io/shell-novice)
 >---------------
 >*    Phillip Doehle
+>*    Peter Hoyt
 
 >[Version Control with Git](http://swcarpentry.github.io/git-novice)
 >------------------------
