@@ -14,6 +14,7 @@ Software Carpentry
 
 >[Version Control with Git](http://swcarpentry.github.io/git-novice)
 >------------------------
+>*    Phillip Doehle
 
 >[Using Databases and SQL](http://swcarpentry.github.io/sql-novice-survey)
 >-----------------------
