@@ -56,3 +56,4 @@ Certified Instructors
 >When you have finished your certification, list your name here.
 >
 >*    Phillip Doehle (Software Carpentry)
+>*    Dana Brunson (Software Carpentry)
