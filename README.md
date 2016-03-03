@@ -11,10 +11,12 @@ Software Carpentry
 >*    Phillip Doehle
 >*    Peter Hoyt
 >*    Dana Brunson
+>*    Jamie Hadwin
 
 >[Version Control with Git](http://swcarpentry.github.io/git-novice)
 >------------------------
 >*    Phillip Doehle
+>*    Jamie Hadwin
 
 >[Using Databases and SQL](http://swcarpentry.github.io/sql-novice-survey)
 >-----------------------
