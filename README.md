@@ -59,3 +59,4 @@ Certified Instructors
 >
 >*    Phillip Doehle (Software Carpentry)
 >*    Dana Brunson (Software Carpentry)
+>*    Peter R. Hoyt (Software Carpentry)
