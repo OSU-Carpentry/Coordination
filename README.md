@@ -23,6 +23,7 @@ Software Carpentry
 
 >[Programming with Python](http://swcarpentry.github.io/python-novice-inflammation)
 >-----------------------
+>*    Jamie Hadwin
 
 >[Programming with R](http://swcarpentry.github.io/r-novice-inflammation)
 >------------------
@@ -60,3 +61,4 @@ Certified Instructors
 >*    Phillip Doehle (Software Carpentry)
 >*    Dana Brunson (Software Carpentry)
 >*    Peter R. Hoyt (Software Carpentry)
+>*    Jamie Hadwin (Software Carpentry)
