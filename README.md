@@ -9,15 +9,21 @@ Software Carpentry
 >[The Unix Shell](http://swcarpentry.github.io/shell-novice)
 >---------------
 >*    Phillip Doehle
+>*    Peter Hoyt
+>*    Dana Brunson
+>*    Jamie Hadwin
 
 >[Version Control with Git](http://swcarpentry.github.io/git-novice)
 >------------------------
+>*    Phillip Doehle
+>*    Jamie Hadwin
 
 >[Using Databases and SQL](http://swcarpentry.github.io/sql-novice-survey)
 >-----------------------
 
 >[Programming with Python](http://swcarpentry.github.io/python-novice-inflammation)
 >-----------------------
+>*    Jamie Hadwin
 
 >[Programming with R](http://swcarpentry.github.io/r-novice-inflammation)
 >------------------
@@ -53,3 +59,6 @@ Certified Instructors
 >When you have finished your certification, list your name here.
 >
 >*    Phillip Doehle (Software Carpentry)
+>*    Dana Brunson (Software Carpentry)
+>*    Peter R. Hoyt (Software Carpentry)
+>*    Jamie Hadwin (Software Carpentry)
