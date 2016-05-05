@@ -17,6 +17,7 @@ Software Carpentry
 >------------------------
 >*    Phillip Doehle
 >*    Jamie Hadwin
+>*    Peter Hoyt
 
 >[Using Databases and SQL](http://swcarpentry.github.io/sql-novice-survey)
 >-----------------------
