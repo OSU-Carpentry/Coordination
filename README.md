@@ -12,6 +12,7 @@ Software Carpentry
 >*    Peter Hoyt
 >*    Dana Brunson
 >*    Jamie Hadwin
+>*    Patrick Boyle
 
 >[Version Control with Git](http://swcarpentry.github.io/git-novice)
 >------------------------
@@ -25,6 +26,7 @@ Software Carpentry
 >[Programming with Python](http://swcarpentry.github.io/python-novice-inflammation)
 >-----------------------
 >*    Jamie Hadwin
+>*    Patrick Boyle
 
 >[Programming with R](http://swcarpentry.github.io/r-novice-inflammation)
 >------------------
@@ -54,6 +56,7 @@ Data Carpentry
 
 >[Data Analysis and Visualization in Python](http://datacarpentry.github.io/python-ecology/)
 >-----------------------------------------
+>*    Patrick Boyle
 
 Certified Instructors
 =====================
@@ -63,3 +66,4 @@ Certified Instructors
 >*    Dana Brunson (Software Carpentry)
 >*    Peter R. Hoyt (Software Carpentry)
 >*    Jamie Hadwin (Software Carpentry)
+>*    Patrick Boyle (Software Carpentry, Data Carpentry)
