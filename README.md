@@ -27,6 +27,7 @@ Software Carpentry
 >-----------------------
 >*    Jamie Hadwin
 >*    Patrick Boyle
+>*    Phillip Doehle
 
 >[Programming with R](http://swcarpentry.github.io/r-novice-inflammation)
 >------------------
