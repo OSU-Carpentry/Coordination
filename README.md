@@ -40,6 +40,7 @@ Software Carpentry
 
 >[Automation and Make](http://swcarpentry.github.io/make-novice)
 >-------------------
+>*    Phillip Doehle
 
 Data Carpentry
 ==============
