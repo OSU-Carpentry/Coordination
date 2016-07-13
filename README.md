@@ -13,6 +13,7 @@ Software Carpentry
 >*    Dana Brunson
 >*    Jamie Hadwin
 >*    Patrick Boyle
+>*    Ross Bowman
 
 >[Version Control with Git](http://swcarpentry.github.io/git-novice)
 >------------------------
@@ -28,6 +29,7 @@ Software Carpentry
 >*    Jamie Hadwin
 >*    Patrick Boyle
 >*    Phillip Doehle
+>*    Ross Bowman
 
 >[Programming with R](http://swcarpentry.github.io/r-novice-inflammation)
 >------------------
@@ -69,3 +71,4 @@ Certified Instructors
 >*    Peter R. Hoyt (Software Carpentry)
 >*    Jamie Hadwin (Software Carpentry)
 >*    Patrick Boyle (Software Carpentry, Data Carpentry)
+>*    Ross Bowman (Software Carpentry)
