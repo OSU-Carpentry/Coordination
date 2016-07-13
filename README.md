@@ -20,6 +20,7 @@ Software Carpentry
 >*    Phillip Doehle
 >*    Jamie Hadwin
 >*    Peter Hoyt
+>*    Dana Brunson
 
 >[Using Databases and SQL](http://swcarpentry.github.io/sql-novice-survey)
 >-----------------------
@@ -30,6 +31,7 @@ Software Carpentry
 >*    Patrick Boyle
 >*    Phillip Doehle
 >*    Ross Bowman
+>*    Dana Brunson
 
 >[Programming with R](http://swcarpentry.github.io/r-novice-inflammation)
 >------------------
