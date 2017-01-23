@@ -73,4 +73,4 @@ Certified Instructors
 >*    Peter R. Hoyt (Software Carpentry)
 >*    Jamie Hadwin (Software Carpentry)
 >*    Patrick Boyle (Software Carpentry, Data Carpentry)
->*    Ross Bowman (Software Carpentry)
+>*    Ross Bowman (Software Carpentry, Data Carpentry)
