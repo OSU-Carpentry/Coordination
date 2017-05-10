@@ -35,6 +35,7 @@ Software Carpentry
 
 >[Programming with R](http://swcarpentry.github.io/r-novice-inflammation)
 >------------------
+>*    Ross Bowman
 
 >[R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder)
 >--------------------------------------
@@ -50,9 +51,11 @@ Data Carpentry
 ==============
 >[Data Organization in Spreadsheets](http://datacarpentry.github.io/spreadsheet-ecology-lesson/)
 >---------------------------------
+>*    Ross Bowman
 
 >[Data Cleaning with OpenRefine](http://datacarpentry.github.io/OpenRefine-ecology/)
 >-----------------------------
+>*    Ross Bowman
 
 >[Data Management with SQL](http://datacarpentry.github.io/sql-ecology/)
 >------------------------
