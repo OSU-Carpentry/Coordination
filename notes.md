@@ -1,0 +1,1 @@
+- Library, Room 206 holds 35 if everybody needs a library laptop and 40 if participants have their own laptop.
