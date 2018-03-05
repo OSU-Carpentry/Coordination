@@ -1,6 +1,5 @@
 #!/usr/bin/Rscript
 library("tidyverse")
-library("shiny")
 
 args = commandArgs(trailingOnly = T)
 if (length(args)==0){
