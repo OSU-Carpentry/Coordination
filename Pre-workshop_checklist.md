@@ -67,7 +67,7 @@
 
 - [ ] Create a clean copy of the Google Docs attendance form for each day and move it into the appropriate Google Docs folder on the Google Drive.
 
-- [ ] Copy the list of names into the mew Google Docs attendance forms.
+- [ ] Copy the list of names into the new Google Docs attendance forms.
 
 ## During Workshop
 
@@ -83,13 +83,15 @@
 
 - [ ] Download attendance response for each day as csv files from the Google Drive.
 
+- [ ] Use `attendees.R` to make a clean report from Eventbrite.
+
 - [ ] Use `take_attend.R` to incorporate attendance info into the cleaned report and get emails for follow up email.
 
 - [ ] Send follow up email.
 
 - [ ] Put copies of final report and waiting list into the appropriate Google Drive folder.
 
-- [ ] Update news item on HPCC website
+> Every workshop folder on the Google drive should have the following: sticky note feedback (Google spreadsheet), attendance form for each day of workshop (Google form and associated Google spreadsheet), waitlist (CSV file), etherpad (Markdown file), final attendees report (CSV file).
 
 - [ ] The Carpentry administrator will contact you and ask for:
    * attendance list
