@@ -1,0 +1,6 @@
+Thanks for attending the workshop last [DAYHERE]! I need two more things from you:
+1.	If you do not want to be on the workshop announcement mailing list, please email me and let me know.
+2.	If you do want to be an OSU Carpentry volunteer and help or teach at more workshops like this in the future, please email me.
+Don’t forget to review the material on the Data Carpentry ([LINK HERE]) and Software Carpentry ([LINK HERE]) websites.
+Thank you for attending the workshop!
+
