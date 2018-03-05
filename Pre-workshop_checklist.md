@@ -89,7 +89,11 @@
 
 - [ ] Send follow up email.
 
+> Make sure to remove emails of people who did not attend.
+
 - [ ] Put copies of final report and waiting list into the appropriate Google Drive folder.
+
+- [ ] Add both attendees and waitlist to CADRE announce list.
 
 > Every workshop folder on the Google drive should have the following: sticky note feedback (Google spreadsheet), attendance form for each day of workshop (Google form and associated Google spreadsheet), waitlist (CSV file), etherpad (Markdown file), final attendees report (CSV file).
 
