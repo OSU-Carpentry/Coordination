@@ -1,0 +1,5 @@
+Hi {first},
+Thanks for registering for the {type} workshop on {time}. I want to remind you to bring a laptop and install the necessary software before coming to the workshops. You can find directions for installing software on the workshop website: {software instruction link}. Instructors will be available starting at 8:30 am if you have any questions or need help installing a piece of software. Formal instruction will begin at 9:00 am.
+
+If you can’t make it to the workshop, please let me know so I can open your spot for a waitlisted participant. I look forward to seeing you there!
+
