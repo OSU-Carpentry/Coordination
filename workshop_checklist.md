@@ -71,6 +71,8 @@
 
 - [ ] Copy the list of names into the new Google Docs attendance forms.
 
+- [ ] Send out reminder email to helpers and instructors.
+
 ## During Workshop
 
 - [ ] Encourage those who have not already taken the pre-workshop survey to take it in the 30 minutes before beginning.
