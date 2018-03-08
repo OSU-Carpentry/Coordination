@@ -35,6 +35,8 @@
 
 - [ ] Finalize list of helpers. Update website with names.
 
+- [ ] Notify everybody who was waitlisted at the last workshop so they get a head-start on registering for this workshop.
+
 - [ ] Promote event.
    * Put event on HPCC website
    * Add workshop to HPCC calendar
