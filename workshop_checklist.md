@@ -99,9 +99,11 @@
 
 - [ ] Put copies of final report and waiting list into the appropriate Google Drive folder.
 
-- [ ] Add both attendees and waitlist to CADRE announce list.
-
 > Every workshop folder on the Google drive should have the following: sticky note feedback (Google spreadsheet), attendance form for each day of workshop (Google form and associated Google spreadsheet), waitlist (CSV file), etherpad (Markdown file), final attendees report (CSV file).
+
+- [ ] Put a hard copy of the Etherpad into the workshop repo.
+
+- [ ] Add both attendees and waitlist to CADRE announce list.
 
 - [ ] The Carpentry administrator will contact you and ask for:
    * attendance list
