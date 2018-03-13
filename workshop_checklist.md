@@ -105,6 +105,8 @@
 
 - [ ] Add both attendees and waitlist to CADRE announce list.
 
+- [ ] Send follow-up email to instructors and helpers with feedback.
+
 - [ ] The Carpentry administrator will contact you and ask for:
    * attendance list
    * report on how the workshop went
