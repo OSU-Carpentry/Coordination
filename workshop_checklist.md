@@ -87,13 +87,15 @@
 
 - [ ] Download attendance response for each day as csv files from the Google Drive.
 
+- [ ] Download Eventbrite report.
+
 - [ ] Use `attendees.R` to make a clean report from Eventbrite.
 
 - [ ] Use `take_attend.R` to incorporate attendance info into the cleaned report and get emails for follow up email.
 
-- [ ] Send follow up email.
+- [ ] Remove emails of people who did not attend either day.
 
-> Make sure to remove emails of people who did not attend.
+- [ ] Send follow up email.
 
 - [ ] Put copies of final report and waiting list into the appropriate Google Drive folder.
 
