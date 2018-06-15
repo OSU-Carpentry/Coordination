@@ -1,21 +1,42 @@
+#!/usr/bin/Rscript
 library("tidyverse")
 library("stringr")
 
-# Attendee reports
-attendees <- read_csv("./2018-01-08.csv")
+# Note: script cannot take more than one day of attendance at a time
+# You need to run the script for each day if it is a multi-day workshop
 
-# Import daily attendance files
-att_days <- c("./2018-01-08_attendance.csv", "./2018-01-09_attendance.csv")
-daily_att <- lapply(att_days, read_csv)
-daily_att <- daily_att %>% 
-  lapply(function(x) unique(x$Name))
+# Note: the script will not support taking attendance for a workshop
+# that is 100 or more days
+args = commandArgs(trailingOnly = T)
+if (length(args)!=4){
+  stop("Need an input .csv file, attedance .csv file, day number, and output .csv file.\n", call. = F)
+}
+
+# Attendee reports
+attendees <- read_csv(args[1])
+
+# Import attendance file
+daily_att <- read_csv(args[2])
+daily_att <- unique(daily_att$Name)
+
+# Derive the name of the attendance column
+# for the day of the workshop
+day_num = ifelse(as.numeric(args[3]) < 10, paste("0", args[3], sep = ""), args[3])
+ws_day = paste("day", day_num, sep = "")
 
 # Check whether or not a participant
 # was present on a given day
 # and add the respective attendance column
+
+# Create a column with first and last name together
 attendees <- attendees %>% 
   mutate(full_name = paste(first, last, sep = " "))
 
+# If full name is in attendance list, attendance gets a
+# TRUE, else FALSE
+# full_name column is no longer neded once the comparison is done
+attendees <- attendees %>% 
+  mutate( !!ws_day := ifelse(full_name %in% daily_att, T, F)) %>%
+  select(-full_name)
 
-#attendees <- attendees %>% 
-#  mutate("2018-01-09_attendance" = ifelse(full_name %in% day02, T, F))
+attendees %>% write_csv(path = args[4])
