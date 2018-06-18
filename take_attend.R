@@ -37,6 +37,7 @@ attendees <- attendees %>%
 # full_name column is no longer neded once the comparison is done
 attendees <- attendees %>% 
   mutate( !!ws_day := ifelse(full_name %in% daily_att, T, F)) %>%
-  select(-full_name)
+  select(-full_name) %>%
+  arrange(last)
 
 attendees %>% write_csv(path = args[4])
