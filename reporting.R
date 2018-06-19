@@ -10,24 +10,29 @@ if (length(args)!=3){
   stop("Need a master list .csv file, attedance .csv file, and a .csv file with a list of standardized department names.\n", call. = F)
 }
 
-master = read_csv(args[1])
-workshop = read_csv(args[2])
-departments = read_csv(args[3])
+master <- read_csv(args[1])
+workshop <- read_csv(args[2])
+departments <- read_csv(args[3])
+departments <- setNames(departments$department, departments$abbreviation)
 
 # Standardize department column.
 # Throw an error if a new department or abbreviation
 # shows up in the workshop attendance info.
 departError <- function(new_dep){
-  message <- paste("Non-standard department entry: ",
+  message <- paste("\n\nNon-standard department entry: ",
                     new_dep, sep = "")
-  stop(paste(message, "\n\nPlease update the list of standardized department names.", 
+  stop(paste(message, "\nPlease update the list of standardized department names.", 
               sep = ""))
 }
 
+non_stand <- departments[workshop$department]
+
+if(length(non_stand) > 0){
+  departError(workshop$department[is.na(non_stand)])
+}
+
 workshop <- workshop %>%
-            mutate(std_dep = ifelse( department %in% departments$abbreviation, 
-                   departments[departments$abbreviation == department, 2],
-                   departError(department))) %>%
+            mutate(std_dep = departments[department]) %>%
             mutate(department = std_dep) %>%
             select(-std_dep)
 
