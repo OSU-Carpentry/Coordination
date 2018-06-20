@@ -65,14 +65,24 @@ workshop_dates <- ggplot(data = workshop_dates, mapping = aes(x = start_date, y 
 ggsave("num_workshops.jpg", dpi = 300)
 
 # Write out a time series plot showing the total number of participants
+first_time <- new_master[match(unique(new_master$email), new_master$email), ]
+first_time <- first_time %>% count(start_date) %>% mutate(cumulative = cumsum(n))
+first_time <- ggplot(data = first_time, mapping = aes(x = start_date, y = cumulative)) +
+              geom_point() + labs(title = "Total First-Time Participants", x = "Date", y = "Number")
+ggsave("num_participants.jpg", dpi = 300)
 
 # Write out a bar chart showing the number of participants by
 # department.
+dep_part <- new_master %>% count(department)
+dep_part <- ggplot(data = dep_part, mapping = aes(department, n)) +
+            geom_bar(stat = "identity") + labs(title = "Total Participants by Department", x = "Department", y = "Number") +
+            theme(axis.text.x = element_text(angle = 90, hjust = 1))
+ggsave("num_department.jpg", dpi = 300)
 
 # Write out a bar chart showing the number of participants by
 # university role.
-
-# Write out an updated list of non-OSU institutions represented
-# at the workshops. Actually generate a full report.
-
-# I need more information about NA when reading and writing csv files. Make sure this is tightly controlled in the script.
+role_part <- new_master %>% count(status)
+role_part <- ggplot(data = role_part, mapping = aes(status, n)) +
+            geom_bar(stat = "identity") + labs(title = "Total Participants by Job Classification", x = "Classification", y = "Number") +
+            theme(axis.text.x = element_text(angle = 90, hjust = 1))
+ggsave("num_class.jpg", dpi = 300)
