@@ -11,7 +11,8 @@ if (length(args)!=3){
   stop("Need a master list .csv file, attedance .csv file, and a .csv file with a list of standardized department names.\n", call. = F)
 }
 
-master <- read_csv(args[1]) %>% mutate(start_date = as.Date(start_date, format = "%y-%m-%d"))
+master <- read_csv(args[1], na = "NA") %>% mutate(start_date = as.Date(start_date, format = "%y-%m-%d")) %>% 
+          mutate(day02 = as.logical(day02))
 workshop <- read_csv(args[2])
 departments <- read_csv(args[3])
 departments <- setNames(departments$department, departments$abbreviation)
@@ -66,7 +67,7 @@ ggsave("num_workshops.jpg", dpi = 300)
 
 # Write out a time series plot showing the total number of participants
 first_time <- new_master[match(unique(new_master$email), new_master$email), ]
-first_time <- first_time %>% count(start_date) %>% mutate(cumulative = cumsum(n))
+first_time <- first_time %>% filter(day01 == T | day02 == T) %>% count(start_date) %>% mutate(cumulative = cumsum(n))
 first_time <- ggplot(data = first_time, mapping = aes(x = start_date, y = cumulative)) +
               geom_point() + labs(title = "Total First-Time Participants", x = "Date", y = "Number")
 ggsave("num_participants.jpg", dpi = 300)
