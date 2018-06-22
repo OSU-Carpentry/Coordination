@@ -62,14 +62,16 @@ write_csv(new_master, path = "master_attendance_new.csv")
 workshop_dates <- new_master %>% select(start_date) %>% unique() %>%
                   arrange(start_date) %>% mutate(number = 1:length(start_date))
 workshop_dates <- ggplot(data = workshop_dates, mapping = aes(x = start_date, y = number)) +
-                  geom_point() + labs(title = "Number of Workshops", x = "Date", y = "Number")
+                  geom_point() + labs(title = "Number of Workshops", x = "Date", y = "Number") +
+                  theme(axis.text.x = element_text(angle = 90, hjust =1))
 ggsave("num_workshops.jpg", dpi = 300)
 
 # Write out a time series plot showing the total number of participants
 first_time <- new_master[match(unique(new_master$email), new_master$email), ]
 first_time <- first_time %>% filter(day01 == T | day02 == T) %>% count(start_date) %>% mutate(cumulative = cumsum(n))
 first_time <- ggplot(data = first_time, mapping = aes(x = start_date, y = cumulative)) +
-              geom_point() + labs(title = "Total First-Time Participants", x = "Date", y = "Number")
+              geom_point() + labs(title = "Total First-Time Participants", x = "Date", y = "Number") +
+              theme(axis.text.x = element_text(angle = 90, hjust =1))
 ggsave("num_participants.jpg", dpi = 300)
 
 # Write out a bar chart showing the number of participants by
