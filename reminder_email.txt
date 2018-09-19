@@ -1,0 +1,11 @@
+Hi [NAME],
+
+Thanks for coming to the [SOFTWARE, DATA, R, PYTHON, ETC.] workshop on [DAY]. Before you come, please make sure you have installed the appropriate software on your computer: [LINK TO INSTALL INSTRUCTION ON WORKSHOP WEBSITE].
+
+[FULL-DAY WORKSHOPS ONLY]
+If you have not done so already, please fill out the pre-workshop survey: [LINK FROM WORKSHOP WEBSITE].
+[FULL-DAY WORKSHOPS ONLY]
+
+I look forward to seeing you there!
+
+[SIGNATURE]
