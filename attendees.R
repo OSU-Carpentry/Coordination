@@ -13,7 +13,7 @@ attendees <- read_csv(args[1])
 attendees <- attendees %>% 
   select(order_date = 'Order Date', first = 'First Name', 
          last = 'Last Name', email = 'Email', affiliation = 'Please Specify', 
-         status = 'Status', department = 'Department (i.e. Chemistry)') %>% 
+         status = 'Status', department = 'Department/Degree?') %>% 
   mutate(affiliation = ifelse(is.na(affiliation), 
                               "Oklahoma State University", affiliation))
 
