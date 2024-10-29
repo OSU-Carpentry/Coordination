@@ -77,3 +77,4 @@ Certified Instructors
 >*    Jamie Hadwin (Software Carpentry)
 >*    Patrick Boyle (Software Carpentry, Data Carpentry)
 >*    Ross Bowman (Software Carpentry, Data Carpentry)
+>*    Rebekah Silverstein
